@@ -18,6 +18,7 @@ button.addEventListener('click', function () {
 
 yes_button.addEventListener('click',function (){
     main.style.visibility = "hidden";
+    txt.style.visibility = "hidden";
     afterYes.style.visibility = "visible";
 
 })

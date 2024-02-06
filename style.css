@@ -1,0 +1,57 @@
+body{
+    background-color: bisque;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+    padding-top: 20%;
+    font-size: xx-large;
+    visibility: visible;
+}
+
+.btn-yes{
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 20px;
+    background-color: rgb(7, 136, 50);
+    height: 60px;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.btn-no{
+    position: absolute;
+    transition: .5s;
+    background-color: rgb(162, 5, 5);
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#txt{
+    transition: .5s;
+    font-size: 150%;
+    padding-top: 120px;
+    visibility: hidden;
+}
+
+.afterYes{
+    flex-flow: column wrap;
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: -350px;
+}
